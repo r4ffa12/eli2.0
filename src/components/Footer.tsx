@@ -26,7 +26,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="text-center md:text-left">
             <h4 className="text-xl font-serif font-bold text-background mb-1">
-              Elivania Psicologia
+              Elivania Psicóloga
             </h4>
             <p className="text-background/60 text-sm">CRP: 03/33280</p>
           </div>
@@ -51,7 +51,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="pt-8 text-center">
           <p className="text-background/50 text-sm">
-            © {new Date().getFullYear()} Elivania Psicologia. Todos os direitos
+            © {new Date().getFullYear()} Elivania Psicóloga. Todos os direitos
             reservados.
           </p>
         </div>
