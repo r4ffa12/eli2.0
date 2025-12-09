@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
+import Logo from "../../assets/logo.png";
+
 
 const navLinks = [
   { name: "Início", href: "#hero" },
@@ -50,7 +52,7 @@ const Header = () => {
             className="flex items-center gap-2"
           >
             <span className="font-serif text-2xl font-bold text-foreground">
-              Elivania<span className="text-primary">Psi</span>
+              Elivania<span className="text-primary">Psicologa</span>
             </span>
           </a>
 
